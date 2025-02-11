@@ -4,11 +4,21 @@ const config: Config = {
   content: ['./src/**/*.{js,ts,jsx,tsx,mdx}'],
   darkMode: ['class', '[data-mode="dark"]'],
   theme: {
-    extend: {
-      backgroundImage: {
-        'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
-        'gradient-conic': 'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
+    container: {
+      center: true,
+      padding: {
+        DEFAULT: '1rem',
+        md: '2rem',
+        lg: '4rem',
       },
+    },
+    fontFamily: {
+      sans: ['var(--font-inter)', 'sans-serif'],
+    },
+    screens: {
+      sm: '375px',
+      md: '768px',
+      lg: '1200px',
     },
   },
   plugins: [],
