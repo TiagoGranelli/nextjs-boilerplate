@@ -1,19 +1,386 @@
 {
-  "Home": {
-    "desc": "🚀🎉📚 Boilerplate and Starter for Next.js 13+ with App Router and Page Router support,Tailwind CSS 3.3 and TypeScript ⚡️ Made with developer experience first: Next.js + TypeScript + ESLint + Prettier + Husky + Lint-Staged + Jest + Testing Library + Cypress +Storybook + Commitlint + VSCode + Netlify + PostCSS + Tailwind CSS"
-  },
-
-  "PathnamesPage": {
-    "title": "Pathnames",
-    "description": "<p>The pathnames are internationalized too.</p><p>If you're using the default language English, you'll see <code>/en/pathnames</code> in the browser address bar on this page.</p><p>If you change the locale to German, the URL is localized accordingly (<code>/de/pfadnamen</code>).</p>"
-  },
-
-  "LocaleLayout": {
-    "title": "next-js-starter-Boilerplate"
-  },
-
   "Navigation": {
     "home": "Home",
-    "pathnames": "Pathnames"
+    "description": "Nablify - Empowering Innovation"
+  },
+  "LocaleLayout": {
+    "title": "Nablify",
+    "description": "Empowering Innovation Through Data"
+  },
+  "Header": {
+    "projectShowcase": "Project showcase by Tiago Granelli",
+    "Services": "Services",
+    "Partners": "Partners",
+    "Stories": "Stories",
+    "Values": "Values",
+    "Team": "Team",
+    "Testimonials": "Testimonials",
+    "cta": "Let's Talk"
+  },
+  "Hero": {
+    "tagline": "Empowering Innovation",
+    "title": "Unlock the power of your data",
+    "description": "We help companies to unlock the power of their data through innovative solutions and expert guidance.",
+    "cta": {
+      "primary": "Let's Talk",
+      "secondary": "Learn More"
+    }
+  },
+  "Features": {
+    "tagline": "Services",
+    "title": "Empowering your digital transformation",
+    "description": "We provide comprehensive solutions to help you navigate the complexities of digital transformation and data management.",
+    "expertise": {
+      "engineering": {
+        "title": "Engineering",
+        "description": [
+          "Multi-physics simulations",
+          "Connectivity & integration of engineering tools",
+          "Usage of high-tech to solve engineering problems"
+        ]
+      },
+      "scientificComputing": {
+        "title": "Scientific Computing",
+        "description": [
+          "Transition to cloud/super-computing",
+          "Migration from single to multicore CPUs & GPUs",
+          "Large-scale data preparation & ingestion"
+        ]
+      },
+      "smartSystems": {
+        "title": "Smart Systems",
+        "description": [
+          "Automation & design of smart systems",
+          "IoT platform/hub development",
+          "System architecture & integration"
+        ]
+      }
+    },
+    "services": {
+      "implementation": {
+        "title": "Implementation",
+        "description": [
+          "Code development, automation, and testing",
+          "Custom pipelines & application software",
+          "DevOps & CI/CD"
+        ]
+      },
+      "advisory": {
+        "title": "Advisory",
+        "description": [
+          "Digital asset management",
+          "DevOps & system architecture",
+          "(Scientific) reproducibility & ethics"
+        ]
+      },
+      "academy": {
+        "title": "Academy",
+        "description": [
+          "Reproducible programming (DevOPs, git, ...)",
+          "High-performance computing (pods, Julia, ...)",
+          "Computer & data science"
+        ]
+      }
+    }
+  },
+  "ProductShowcase": {
+    "word": "nablify",
+    "pronunciation": "/'næ-bli-figh/",
+    "type": "verb",
+    "definition": "care and make remarkable change happen with a state-of-the-art solution to a challenge using science and technology.",
+    "origin": {
+      "label": "ORIGIN",
+      "from": "from",
+      "word": "'nabla'",
+      "description": ", mathematical symbol and operator",
+      "explanation": "used to determine the direction of the greatest change in a function."
+    }
+  },
+  "Principles": {
+    "tagline": "Principles",
+    "title": "Get ready to nablify!",
+    "principles": {
+      "ownable": {
+        "title": "Ownable",
+        "points": [
+          "We forge champions inside your team",
+          "We blend in & integrate with your team",
+          "We valorize your own data"
+        ]
+      },
+      "scalable": {
+        "title": "Scalable",
+        "points": [
+          "We automate your processes",
+          "We thrive to reduce errors",
+          "We facilitate so you can serve more"
+        ]
+      },
+      "sustainable": {
+        "title": "Sustainable",
+        "points": [
+          "We reuse what you already have",
+          "We guide to use resources efficiently",
+          "We find the most efficient path"
+        ]
+      }
+    }
+  },
+  "Partners": {
+    "tagline": "Partners",
+    "title": "Industry Leaders",
+    "description": "Our partners are leaders in the following sectors:",
+    "partners": {
+      "aerospace": {
+        "title": "Aerospace"
+      },
+      "defense": {
+        "title": "Defense"
+      },
+      "energy": {
+        "title": "Energy"
+      },
+      "healthcare": {
+        "title": "Healthcare"
+      },
+      "food": {
+        "title": "Food & Beverage"
+      },
+      "construction": {
+        "title": "Construction"
+      }
+    }
+  },
+  "Stories": {
+    "tagline": "Success Stories",
+    "title": "Real Solutions, Real Impact",
+    "stories": {
+      "workflow": {
+        "question": "To scale up, we lack experience.\nCan we ",
+        "title": "Enable scalable & reproducible workflows",
+        "challenge": "Investigate millions of parameter configurations of an engineering analysis pipeline",
+        "solution": [
+          "Implement analysis pipelines that seamlessly integrate with existing data sources and processes",
+          "Scale the analysis pipeline to a secure high-performance platform",
+          "Generate reports automatically based on the analysis results"
+        ],
+        "benefits": [
+          "Gain system insights at large scale",
+          "Reuse existing processes and data",
+          "Reduce significantly manual interventions"
+        ],
+        "tools": [
+          "slurm",
+          "julia",
+          "apptainer",
+          "kubernetes"
+        ]
+      },
+      "data": {
+        "question": "We have so much data. But we don't know what to do with it!\nCan we ",
+        "title": "Achieve data-driven agility",
+        "challenge": "Tackle the complexity of integrating diverse data sets to gain hidden insights.",
+        "solution": [
+          "Implement a custom-built hub to seamlessly manage and unify data streams.",
+          "Automate existing processes to streamline operations and enhance efficiency."
+        ],
+        "benefits": [
+          "Data-driven decision-making",
+          "Access clean and organized data streams for training AI models",
+          "Customized cloud-based dashboards for real-time analysis and actionable insights",
+          "Seamless integration of existing systems for unified data management"
+        ],
+        "tools": [
+          "google_cloud",
+          "python",
+          "gitlab",
+          "docker",
+          "postgresql"
+        ]
+      },
+      "modernization": {
+        "question": "We need to digitalize our business\nCan we ",
+        "title": "Emphasize the benefits of modern systems",
+        "challenge": "Outdated systems and/or processes hinder business agility, efficiency, and security",
+        "solution": [
+          "Seamlessly transition from legacy to cloud-based solutions without disruption and interruption",
+          "Leverage a robust ETL pipeline to stream data into a relational database"
+        ],
+        "benefits": [
+          "Experience a resilient and scalable cloud-based system with secure access",
+          "Repurpose existing data assets with no data loss during the migration process",
+          "Extend the lifespan of legacy tools by integrating them into the new system",
+          "Minimize the need for complete redevelopment"
+        ],
+        "tools": [
+          "julia",
+          "fortran",
+          "r",
+          "latex",
+          "docker",
+          "mysql"
+        ]
+      }
+    },
+    "subtitles": {
+      "challenge": "Challenge",
+      "solution": "Solution",
+      "benefits": "Benefits"
+    }
+  },
+  "Values": {
+    "tagline": "Values",
+    "title": "What drives us",
+    "values": {
+      "excellence": {
+        "title": "Excellence",
+        "description": "We set high standards for quality, performance, and satisfaction."
+      },
+      "integrity": {
+        "title": "Integrity",
+        "description": "We build on trust & act with honesty, transparency, and integrity."
+      },
+      "continuity": {
+        "title": "Continuity",
+        "description": "We are resilient in the face of challenges and leverage setbacks as opportunities."
+      },
+      "responsibility": {
+        "title": "Responsibility",
+        "description": "We take ownership, take initiative, and assume responsibility."
+      },
+      "adaptability": {
+        "title": "Adaptability",
+        "description": "We embrace change and continuous innovation."
+      }
+    }
+  },
+  "Team": {
+    "tagline": "Team",
+    "title": "Meet the Experts",
+    "description": "A team of passionate professionals dedicated to delivering excellence",
+    "members": {
+      "leadership": {
+        "name": "Dr. Laurent",
+        "lastName": "HEIRENDT",
+        "role": "Founder & CEO",
+        "description": [
+          "PhD Aerospace Science & Engineering",
+          "Holder of patent for aircraft landing gear",
+          "Profound experience in engineering, scientific computing & smart systems"
+        ]
+      },
+      "specialists": {
+        "ronan": {
+          "name": "Ronan",
+          "lastName": "TREMOUREUX",
+          "role": "Software Specialist",
+          "description": [
+            "Engineering degree in Software Science",
+            "Postgraduate degree in Electrical Engineering",
+            "Experience with AI, cloud computing & systems architecture"
+          ]
+        },
+        "ezhilmathi": {
+          "name": "Dr. Ezhilmathi",
+          "lastName": "KRISHNASAMY",
+          "role": "Scientific Computing Specialist",
+          "description": [
+            "PhD in Applied Mathematics & Computer Science",
+            "Extensive expertise in HPC, numerical methods, and physics",
+            "Expert in AI & machine learning (ML)"
+          ]
+        }
+      },
+      "advisors": {
+        "mario": {
+          "name": "Mario C.",
+          "lastName": "BAUER",
+          "role": "Advisor",
+          "description": [
+            "Entrepreneur, Brand Ambassador, Author",
+            "Former head of global expansion at Vapiano",
+            "Brand Ambassador at AmRest",
+            "Founder of several startups"
+          ]
+        },
+        "thomas": {
+          "name": "Christopher",
+          "lastName": "JONES",
+          "role": "Advisor Strategy & Operations",
+          "description": [
+            "Entrepreneur & CEO",
+            "Managing Director at Brioche Dorée",
+            "President of Alumni Association Glion",
+            "Visionary leader in the food & beverage (F&B) industry"
+          ]
+        }
+      }
+    },
+    "tagline2": "Advisors",
+    "title2": "Strategic Guidance"
+  },
+  "Testimonials": {
+    "tagline": "Testimonials",
+    "title": "What our clients say",
+    "description": "From Intuitive design to powerful features, our app has become an essential tool for users around the world.",
+    "testimonials": [
+      {
+        "text": "As a seasoned designer always on the lookout for innovative tools, Framer.com instantly grabbed my attention.",
+        "name": "Jamie Rivera",
+        "username": "@jamietechguru00"
+      },
+      {
+        "text": "Our team's productivity has skyrocketed since we started using this tool.",
+        "name": "Josh Smith",
+        "username": "@jjsmith"
+      },
+      {
+        "text": "This app has completely transformed how I manage my projects and deadlines.",
+        "name": "Morgan Lee",
+        "username": "@morganleewhiz"
+      },
+      {
+        "text": "I was amazed at how quickly we were able to integrate this app into our workflow.",
+        "name": "Casey Jordan",
+        "username": "@caseyj"
+      },
+      {
+        "text": "Planning and executing events has never been easier. This app helps me keep track of all the moving parts, ensuring nothing slips through the cracks.",
+        "name": "Taylor Kim",
+        "username": "@taylorkimm"
+      },
+      {
+        "text": "The customizability and integration capabilities of this app are top-notch.",
+        "name": "Riley Smith",
+        "username": "@rileysmith1"
+      },
+      {
+        "text": "Adopting this app for our team has streamlined our project management and improved communication across the board.",
+        "name": "Jordan Patels",
+        "username": "@jpatelsdesign"
+      },
+      {
+        "text": "With this app, we can easily assign tasks, track progress, and manage documents all in one place.",
+        "name": "Sam Dawson",
+        "username": "@dawsontechtips"
+      },
+      {
+        "text": "Its user-friendly interface and robust features support our diverse needs.",
+        "name": "Casey Harper",
+        "username": "@casey09"
+      }
+    ]
+  },
+  "CallToAction": {
+    "tagline": "Contact",
+    "title": "Ready to nablify?",
+    "title2": "Let's talk",
+    "cta": "Find your next Opportunity",
+    "description": "We speak English, French, German, Luxembourgish, and Portuguese."
+  },
+  "Footer": {
+    "registration": "Registration #: B 28 28 56    VAT #: LU 354 109 67",
+    "followUs": "Follow us:",
+    "copyright": "© nablify - 2025."
   }
 }

@@ -1,8 +1,13 @@
 import type { ReactNode } from 'react';
 import Loading from '@/app/[locale]/loading';
 import { routing } from '@/i18n/i18nNavigation';
+import clsx from 'clsx';
 import { NextIntlClientProvider } from 'next-intl';
-import { getMessages, getTranslations, setRequestLocale } from 'next-intl/server';
+import {
+  getMessages,
+  getTranslations,
+  setRequestLocale,
+} from 'next-intl/server';
 import { Inter } from 'next/font/google';
 import { notFound } from 'next/navigation';
 import React, { Suspense } from 'react';
@@ -25,6 +30,7 @@ export async function generateMetadata({ params }: Omit<Props, 'children'>) {
 
   return {
     title: t('title'),
+    description: t('description'),
   };
 }
 
@@ -40,8 +46,8 @@ export default async function LocaleLayout({ children, params }: Props) {
 
   const messages = await getMessages();
   return (
-    <html lang={locale}>
-      <body className={inter.className}>
+    <html lang={locale} className="relative">
+      <body className={clsx(inter.className, 'bg-[#EAEEFE] antialiased')}>
         <NextIntlClientProvider messages={messages}>
           <Suspense fallback={<Loading />}>{children}</Suspense>
         </NextIntlClientProvider>

@@ -1,0 +1,386 @@
+{
+  "Navigation": {
+    "home": "Início",
+    "description": "Nablify - Impulsionando a Inovação"
+  },
+  "LocaleLayout": {
+    "title": "Nablify",
+    "description": "Impulsionando a Inovação Através dos Dados"
+  },
+  "Header": {
+    "projectShowcase": "Apresentação de projeto do Tiago Granelli",
+    "Services": "Serviços",
+    "Partners": "Parceiros",
+    "Stories": "Histórias",
+    "Values": "Valores",
+    "Team": "Equipe",
+    "Testimonials": "Depoimentos",
+    "cta": "Contato"
+  },
+  "Hero": {
+    "tagline": "Impulsionando a Inovação",
+    "title": "Desbloqueie o poder dos seus dados",
+    "description": "Ajudamos empresas a desbloquear o poder de seus dados através de soluções inovadoras e orientação especializada.",
+    "cta": {
+      "primary": "Fale Conosco",
+      "secondary": "Saiba Mais"
+    }
+  },
+  "Features": {
+    "tagline": "Serviços",
+    "title": "Capacitando sua transformação digital",
+    "description": "Fornecemos soluções abrangentes para ajudar você a navegar pelas complexidades da transformação digital e do gerenciamento de dados.",
+    "expertise": {
+      "engineering": {
+        "title": "Engenharia",
+        "description": [
+          "Simulações multifísicas",
+          "Conectividade e integração de ferramentas de engenharia",
+          "Uso de alta tecnologia para resolver problemas de engenharia"
+        ]
+      },
+      "scientificComputing": {
+        "title": "Computação Científica",
+        "description": [
+          "Transição para nuvem/supercomputação",
+          "Migração de CPUs e GPUs de núcleo único para vários núcleos",
+          "Preparação e ingestão de dados em larga escala"
+        ]
+      },
+      "smartSystems": {
+        "title": "Sistemas Inteligentes",
+        "description": [
+          "Automação e projeto de sistemas inteligentes",
+          "Desenvolvimento de plataforma/hub IoT",
+          "Arquitetura e integração de sistemas"
+        ]
+      }
+    },
+    "services": {
+      "implementation": {
+        "title": "Implementação",
+        "description": [
+          "Desenvolvimento de código, automação e testes",
+          "Pipelines personalizadas e software aplicativo",
+          "DevOps e CI/CD"
+        ]
+      },
+      "advisory": {
+        "title": "Consultoria",
+        "description": [
+          "Gerenciamento de ativos digitais",
+          "DevOps e arquitetura de sistemas",
+          "Reprodutibilidade e ética (científica)"
+        ]
+      },
+      "academy": {
+        "title": "Academia",
+        "description": [
+          "Programação reproduzível (DevOps, git,...)",
+          "Computação de alto desempenho (pods, Julia,...)",
+          "Ciência da computação e dados"
+        ]
+      }
+    }
+  },
+  "ProductShowcase": {
+    "word": "nablify",
+    "pronunciation": "/'næ-bli-figh/",
+    "type": "verbo",
+    "definition": "cuidar e fazer mudanças notáveis acontecerem com uma solução de última geração para um desafio usando ciência e tecnologia.",
+    "origin": {
+      "label": "ORIGEM",
+      "from": "de",
+      "word": "'nabla'",
+      "description": ", símbolo e operador matemático",
+      "explanation": "usado para determinar a direção da maior mudança em uma função."
+    }
+  },
+  "Principles": {
+    "tagline": "Princípios",
+    "title": "Prepare-se para nablify!",
+    "principles": {
+      "ownable": {
+        "title": "Próprio",
+        "points": [
+          "Forjamos campeões dentro da sua equipe",
+          "Nós nos misturamos e nos integramos à sua equipe",
+          "Valorizamos seus próprios dados"
+        ]
+      },
+      "scalable": {
+        "title": "Escalável",
+        "points": [
+          "Automatizamos seus processos",
+          "Buscamos reduzir erros",
+          "Facilitamos para que você possa atender mais"
+        ]
+      },
+      "sustainable": {
+        "title": "Sustentável",
+        "points": [
+          "Reutilizamos o que você já tem",
+          "Orientamos para usar os recursos de forma eficiente",
+          "Encontramos o caminho mais eficiente"
+        ]
+      }
+    }
+  },
+  "Partners": {
+    "tagline": "Parceiros",
+    "title": "Líderes da Indústria",
+    "description": "Nossos parceiros são líderes nos seguintes setores:",
+    "partners": {
+      "aerospace": {
+        "title": "Aeroespacial"
+      },
+      "defense": {
+        "title": "Defesa"
+      },
+      "energy": {
+        "title": "Energia"
+      },
+      "healthcare": {
+        "title": "Saúde"
+      },
+      "food": {
+        "title": "Alimentos e Bebidas"
+      },
+      "construction": {
+        "title": "Construção"
+      }
+    }
+  },
+  "Stories": {
+    "tagline": "Histórias de Sucesso",
+    "title": "Soluções Reais, Impacto Real",
+    "stories": {
+      "workflow": {
+        "question": "Para crescer, nos falta experiência.\nPodemos",
+        "title": "Habilitar fluxos de trabalho escaláveis e reproduzíveis",
+        "challenge": "Investigar milhões de configurações de parâmetros de um pipeline de análise de engenharia",
+        "solution": [
+          "Implementar pipelines de análise que se integram perfeitamente com fontes de dados e processos existentes",
+          "Escalar o pipeline de análise para uma plataforma segura de alto desempenho",
+          "Gerar relatórios automaticamente com base nos resultados da análise"
+        ],
+        "benefits": [
+          "Obter insights do sistema em larga escala",
+          "Reutilizar processos e dados existentes",
+          "Reduzir significativamente as intervenções manuais"
+        ],
+        "tools": [
+          "slurm",
+          "julia",
+          "apptainer",
+          "kubernetes"
+        ]
+      },
+      "data": {
+        "question": "Temos tantos dados. Mas não sabemos o que fazer com eles!\nPodemos",
+        "title": "Alcançar agilidade orientada por dados",
+        "challenge": "Lidar com a complexidade de integrar diversos conjuntos de dados para obter insights ocultos.",
+        "solution": [
+          "Implementar um hub personalizado para gerenciar e unificar perfeitamente os fluxos de dados.",
+          "Automatizar os processos existentes para otimizar as operações e aumentar a eficiência."
+        ],
+        "benefits": [
+          "Tomada de decisão orientada por dados",
+          "Acesso a fluxos de dados limpos e organizados para treinamento de modelos de IA",
+          "Painéis personalizados baseados em nuvem para análise em tempo real e insights acionáveis",
+          "Integração perfeita de sistemas existentes para gerenciamento unificado de dados"
+        ],
+        "tools": [
+          "google_cloud",
+          "python",
+          "gitlab",
+          "docker",
+          "postgresql"
+        ]
+      },
+      "modernization": {
+        "question": "Precisamos digitalizar nossos negócios\nPodemos",
+        "title": "Enfatizar os benefícios dos sistemas modernos",
+        "challenge": "Sistemas e/ou processos desatualizados prejudicam a agilidade, eficiência e segurança dos negócios",
+        "solution": [
+          "Transição perfeita de soluções legadas para soluções baseadas em nuvem sem interrupção e interrupção",
+          "Aproveitar um pipeline ETL robusto para transmitir dados para um banco de dados relacional"
+        ],
+        "benefits": [
+          "Experimentar um sistema resiliente e escalável baseado em nuvem com acesso seguro",
+          "Reutilizar ativos de dados existentes sem perda de dados durante o processo de migração",
+          "Estender a vida útil de ferramentas legadas, integrando-as ao novo sistema",
+          "Minimizar a necessidade de redesenvolvimento completo"
+        ],
+        "tools": [
+          "julia",
+          "fortran",
+          "r",
+          "latex",
+          "docker",
+          "mysql"
+        ]
+      }
+    },
+    "subtitles": {
+      "challenge": "Desafio",
+      "solution": "Solução",
+      "benefits": "Benefícios"
+    }
+  },
+  "Values": {
+    "tagline": "Valores",
+    "title": "O que nos impulsiona",
+    "values": {
+      "excellence": {
+        "title": "Excelência",
+        "description": "Definimos altos padrões de qualidade, desempenho e satisfação."
+      },
+      "integrity": {
+        "title": "Integridade",
+        "description": "Construímos confiança e agimos com honestidade, transparência e integridade."
+      },
+      "continuity": {
+        "title": "Continuidade",
+        "description": "Somos resilientes diante de desafios e aproveitamos os contratempos como oportunidades."
+      },
+      "responsibility": {
+        "title": "Responsabilidade",
+        "description": "Assumimos a propriedade, tomamos iniciativas e assumimos responsabilidade."
+      },
+      "adaptability": {
+        "title": "Adaptabilidade",
+        "description": "Abraçamos a mudança e a inovação contínua."
+      }
+    }
+  },
+  "Team": {
+    "tagline": "Equipe",
+    "title": "Conheça os Especialistas",
+    "description": "Uma equipe de profissionais apaixonados, dedicados a entregar excelência",
+    "members": {
+      "leadership": {
+        "name": "Dr. Laurent",
+        "lastName": "HEIRENDT",
+        "role": "Fundador e CEO",
+        "description": [
+          "Doutorado em Ciências e Engenharia Aeroespacial",
+          "Detentor de patente para trem de pouso de aeronaves",
+          "Profunda experiência em engenharia, computação científica e sistemas inteligentes"
+        ]
+      },
+      "specialists": {
+        "ronan": {
+          "name": "Ronan",
+          "lastName": "TREMOUREUX",
+          "role": "Especialista em Software",
+          "description": [
+            "Graduação em Engenharia em Ciência da Computação",
+            "Pós-graduação em Engenharia Elétrica",
+            "Experiência com IA, computação em nuvem e arquitetura de sistemas"
+          ]
+        },
+        "ezhilmathi": {
+          "name": "Dr. Ezhilmathi",
+          "lastName": "KRISHNASAMY",
+          "role": "Especialista em Computação Científica",
+          "description": [
+            "Doutorado em Matemática Aplicada e Ciência da Computação",
+            "Vasta experiência em HPC, métodos numéricos e física",
+            "Especialista em IA e aprendizado de máquina (ML)"
+          ]
+        }
+      },
+      "advisors": {
+        "mario": {
+          "name": "Mario C.",
+          "lastName": "BAUER",
+          "role": "Consultor",
+          "description": [
+            "Empreendedor, Embaixador de Marca, Autor",
+            "Ex-chefe de expansão global da Vapiano",
+            "Embaixador de Marca na AmRest",
+            "Fundador de várias startups"
+          ]
+        },
+        "thomas": {
+          "name": "Christopher",
+          "lastName": "JONES",
+          "role": "Consultor de Estratégia e Operações",
+          "description": [
+            "Empreendedor e CEO",
+            "Diretor Administrativo da Brioche Dorée",
+            "Presidente da Associação de Ex-Alunos da Glion",
+            "Líder visionário na indústria de alimentos e bebidas (A&B)"
+          ]
+        }
+      }
+    },
+    "tagline2": "Consultores",
+    "title2": "Orientação Estratégica"
+  },
+  "Testimonials": {
+    "tagline": "Depoimentos",
+    "title": "O que nossos clientes dizem",
+    "description": "Desde o design intuitivo até os recursos poderosos, nosso aplicativo se tornou uma ferramenta essencial para usuários em todo o mundo.",
+    "testimonials": [
+      {
+        "text": "Como um designer experiente sempre à procura de ferramentas inovadoras, o Framer.com chamou minha atenção instantaneamente.",
+        "name": "Jamie Rivera",
+        "username": "@jamietechguru00"
+      },
+      {
+        "text": "A produtividade da nossa equipe disparou desde que começamos a usar esta ferramenta.",
+        "name": "Josh Smith",
+        "username": "@jjsmith"
+      },
+      {
+        "text": "Este aplicativo transformou completamente a forma como gerencio meus projetos e prazos.",
+        "name": "Morgan Lee",
+        "username": "@morganleewhiz"
+      },
+      {
+        "text": "Fiquei impressionado com a rapidez com que conseguimos integrar este aplicativo ao nosso fluxo de trabalho.",
+        "name": "Casey Jordan",
+        "username": "@caseyj"
+      },
+      {
+        "text": "Planejar e executar eventos nunca foi tão fácil. Este aplicativo me ajuda a acompanhar todas as partes móveis, garantindo que nada passe despercebido.",
+        "name": "Taylor Kim",
+        "username": "@taylorkimm"
+      },
+      {
+        "text": "A capacidade de personalização e integração deste aplicativo são de primeira linha.",
+        "name": "Riley Smith",
+        "username": "@rileysmith1"
+      },
+      {
+        "text": "A adoção deste aplicativo para nossa equipe agilizou nosso gerenciamento de projetos e melhorou a comunicação em geral.",
+        "name": "Jordan Patels",
+        "username": "@jpatelsdesign"
+      },
+      {
+        "text": "Com este aplicativo, podemos facilmente atribuir tarefas, acompanhar o progresso e gerenciar documentos em um só lugar.",
+        "name": "Sam Dawson",
+        "username": "@dawsontechtips"
+      },
+      {
+        "text": "Sua interface amigável e recursos robustos atendem às nossas diversas necessidades.",
+        "name": "Casey Harper",
+        "username": "@casey09"
+      }
+    ]
+  },
+  "CallToAction": {
+    "tagline": "Contato",
+    "title": "Pronto para nablify?",
+    "title2": "Vamos conversar",
+    "cta": "Encontre sua próxima oportunidade",
+    "description": "Falamos inglês, francês, alemão, luxemburguês e português."
+  },
+  "Footer": {
+    "registration": "Inscrição #: B 28 28 56    TVA #: LU 354 109 67",
+    "followUs": "Siga-nos:",
+    "copyright": "© nablify - 2025."
+  }
+}
