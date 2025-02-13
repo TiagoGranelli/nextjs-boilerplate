@@ -8,7 +8,7 @@ export const ProductShowcase = () => {
   return (
     <section
       id="showcase"
-      className="overflow-x-clip bg-gradient-to-b from-[#f9fafb] to-[#D2DCFF] py-24"
+      className="overflow-x-clip bg-gradient-to-b from-[#ffffff] to-[#D2DCFF] py-24"
     >
       <div className="container relative">
         <div className="mx-auto max-w-3xl">
