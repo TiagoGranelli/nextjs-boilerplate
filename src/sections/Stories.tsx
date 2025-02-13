@@ -55,11 +55,11 @@ const Story = ({ story, index }: { story: any; index: number }) => {
       {/* Left Column - Question & Image */}
       <div className="md:col-span-5">
         <div className="text-center">
-          <h4 className="whitespace-pre-line text-xl font-medium leading-relaxed text-[#010D3E]/80">
+          <h3 className="whitespace-pre-line text-xl font-medium leading-relaxed text-[#010D3E]/80">
             {story.question}
             <span className="font-bold text-[#010D3E]"> nablify?</span>
             "
-          </h4>
+          </h3>
           <motion.div
             className="relative mx-auto mt-12 aspect-square w-[300px] overflow-hidden rounded-full"
             whileHover={{ scale: 1.05 }}
@@ -83,9 +83,9 @@ const Story = ({ story, index }: { story: any; index: number }) => {
           viewport={{ once: true }}
           transition={{ duration: 0.5, delay: 0.2 }}
         >
-          <h2 className="text-3xl font-bold tracking-tight text-[#010D3E]">
+          <h3 className="text-3xl font-bold tracking-tight text-[#010D3E]">
             {story.title}
-          </h2>
+          </h3>
 
           <div className="mt-8 space-y-8">
             <div>
