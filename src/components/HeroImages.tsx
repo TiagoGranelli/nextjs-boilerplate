@@ -12,7 +12,7 @@ export const HeroImages = () => {
     target: heroRef,
     offset: ['start end', 'end start'],
   });
-  const translateY = useTransform(scrollYProgress, [0, 1], [-100, 100]);
+  const translateY = useTransform(scrollYProgress, [0, 1], [0, 100]);
 
   return (
     <div ref={heroRef} className="relative mt-20 md:mt-0 md:h-[648px] md:flex-1">
@@ -21,7 +21,7 @@ export const HeroImages = () => {
         alt="Cog image"
         className="h-full w-auto md:absolute md:max-w-none"
         animate={{
-          translateY: [-30, 30],
+          translateY: [0, 30],
         }}
         transition={{
           repeat: Infinity,
@@ -37,9 +37,10 @@ export const HeroImages = () => {
         width={220}
         height={220}
         alt="cylinderImage image"
-        className="-left-32 -top-8 hidden md:absolute md:block"
+        className="-left-32 top-[-50px] hidden md:absolute md:block"
         style={{
           translateY,
+          transition: 'transform 0.5s ease-out',
         }}
       />
       <motion.img
@@ -51,6 +52,7 @@ export const HeroImages = () => {
         style={{
           rotate: 30,
           translateY,
+          transition: 'transform 0.5s ease-out',
         }}
       />
     </div>
