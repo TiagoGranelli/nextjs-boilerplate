@@ -15,6 +15,7 @@ export const Footer = () => {
             alt="Nablify Logo"
             height={50}
             className="relative"
+            loading="lazy"
           />
         </div>
         <div className="mt-3 flex flex-col justify-center gap-6 md:flex-row ">
@@ -23,7 +24,7 @@ export const Footer = () => {
         <div className="mt-1 text-white">
           <Link href="https://www.linkedin.com/company/nablify" className="flex items-center justify-center gap-1">
             {t('followUs')}
-            <Image src={linkedinImage} alt="LinkedIn" />
+            <Image src={linkedinImage} alt="LinkedIn" loading="lazy" />
           </Link>
         </div>
         <p className="mt-1 text-white">

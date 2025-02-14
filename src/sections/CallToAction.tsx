@@ -101,6 +101,7 @@ export const CallToAction = () => {
               alt="Star Image"
               className="absolute left-[-250px] top-[-300px]"
               width={360}
+              loading="lazy"
               style={{
                 translateY,
               }}
@@ -126,6 +127,7 @@ export const CallToAction = () => {
               src={springImage.src}
               alt="Sprint Image"
               width={360}
+              loading="lazy"
               className="absolute bottom-[-150px] right-[-200px]"
               style={{
                 translateY,

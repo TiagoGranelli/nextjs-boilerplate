@@ -54,6 +54,7 @@ const TeamMember = ({ member }: { member: TeamMemberType }) => (
         src={member.image.src}
         alt={`${member.name} ${member.lastName}`}
         fill
+        loading="lazy"
         className="object-cover"
       />
     </div>
@@ -190,6 +191,7 @@ export const Team = () => {
           height={262}
           width={262}
           className="absolute -right-36 top-24 z-10 hidden md:block"
+          loading="lazy"
           style={{
             translateY,
           }}
@@ -200,6 +202,7 @@ export const Team = () => {
           height={248}
           width={248}
           className="absolute -left-36 bottom-40 z-10 hidden md:block"
+          loading="lazy"
           style={{
             translateY,
           }}

@@ -23,36 +23,37 @@ export const LogoTicker = () => {
               repeatType: 'loop',
             }}
           >
-            <Image src={acmeLogo} alt="Acme Logo" className="logo-ticker" />
-            <Image src={apexLogo} alt="Apex Logo" className="logo-ticker" />
+            <Image src={acmeLogo} alt="Acme Logo" className="logo-ticker" loading="lazy" />
+            <Image src={apexLogo} alt="Apex Logo" className="logo-ticker" loading="lazy" />
             <Image
               src={quantumLogo}
               alt="Quantum Logo"
               className="logo-ticker"
+              loading="lazy"
             />
-            <Image src={echoLogo} alt="Echo Logo" className="logo-ticker" />
+            <Image src={echoLogo} alt="Echo Logo" className="logo-ticker" loading="lazy" />
             <Image
               src={celestialLogo}
               alt="Celestial Logo"
               className="logo-ticker"
             />
-            <Image src={pulseLogo} alt="Pulse Logo" className="logo-ticker" />
+            <Image src={pulseLogo} alt="Pulse Logo" className="logo-ticker" loading="lazy" />
 
             {/* Second set of logos */}
-            <Image src={acmeLogo} alt="Acme Logo" className="logo-ticker" />
-            <Image src={apexLogo} alt="Apex Logo" className="logo-ticker" />
+            <Image src={acmeLogo} alt="Acme Logo" className="logo-ticker" loading="lazy" />
+            <Image src={apexLogo} alt="Apex Logo" className="logo-ticker" loading="lazy" />
             <Image
               src={quantumLogo}
               alt="Quantum Logo"
               className="logo-ticker"
             />
-            <Image src={echoLogo} alt="Echo Logo" className="logo-ticker" />
+            <Image src={echoLogo} alt="Echo Logo" className="logo-ticker" loading="lazy" />
             <Image
               src={celestialLogo}
               alt="Celestial Logo"
               className="logo-ticker"
             />
-            <Image src={pulseLogo} alt="Pulse Logo" className="logo-ticker" />
+            <Image src={pulseLogo} alt="Pulse Logo" className="logo-ticker" loading="lazy" />
           </motion.div>
         </div>
       </div>

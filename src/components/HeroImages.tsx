@@ -31,6 +31,7 @@ export const HeroImages = () => {
         }}
         width={648}
         height={648}
+
       />
       <motion.img
         src={cylinderImage.src}
@@ -42,6 +43,7 @@ export const HeroImages = () => {
           translateY,
           transition: 'transform 0.5s ease-out',
         }}
+        loading="lazy"
       />
       <motion.img
         src={noodleImage.src}
@@ -54,6 +56,7 @@ export const HeroImages = () => {
           translateY,
           transition: 'transform 0.5s ease-out',
         }}
+        loading="lazy"
       />
     </div>
   );

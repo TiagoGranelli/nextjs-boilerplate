@@ -50,6 +50,7 @@ const TestimonialsColumn = (props: {
                   height={40}
                   alt={name}
                   className="size-10 rounded-full"
+                  loading="lazy"
                 />
                 <div className="flex flex-col">
                   <div className="font-medium leading-5 tracking-tight">

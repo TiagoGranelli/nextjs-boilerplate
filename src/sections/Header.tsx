@@ -39,7 +39,7 @@ export const Header = () => {
       <div className="relative py-5">
         <div className="container">
           <div className="flex items-center justify-between">
-            <Image src={Logo} alt="Nablify Logo" height={50} />
+            <Image priority src={Logo} alt="Nablify Logo" height={50} />
             <div className="flex items-center gap-4">
               {/* Language Switcher - Desktop */}
               <div className="relative hidden md:block">

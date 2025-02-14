@@ -1,5 +1,19 @@
 'use client';
 
+import type { StaticImageData } from 'next/image';
+import apptainerImage from '@/assets/apptainer.svg';
+import dockerImage from '@/assets/docker.svg';
+import fortranImage from '@/assets/fortran.svg';
+import gitlabImage from '@/assets/gitlab.svg';
+import googleCloudImage from '@/assets/google_cloud.svg';
+import juliaImage from '@/assets/julia.svg';
+import kubernetesImage from '@/assets/kubernetes.svg';
+import latexImage from '@/assets/latex.svg';
+import mysqlImage from '@/assets/mysql.svg';
+import postgresqlImage from '@/assets/postgresql.svg';
+import pythonImage from '@/assets/python.svg';
+import rImage from '@/assets/r.svg';
+import slurmImage from '@/assets/slurm.svg';
 import useCase3Image from '@/assets/use-case-3.webp';
 import useCase4Image from '@/assets/use-case-4.webp';
 import useCase10Image from '@/assets/use-case-10.webp';
@@ -28,20 +42,20 @@ const itemVariants = {
   },
 };
 
-const toolUrls: Record<string, string> = {
-  mysql: 'https://www.nablify.com/assets/img/tools/mysql.svg',
-  latex: 'https://www.nablify.com/assets/img/tools/latex.svg',
-  r: 'https://www.nablify.com/assets/img/tools/r.svg',
-  fortran: 'https://www.nablify.com/assets/img/tools/fortran.svg',
-  julia: 'https://www.nablify.com/assets/img/tools/julia.svg',
-  postgresql: 'https://www.nablify.com/assets/img/tools/postgresql.svg',
-  docker: 'https://www.nablify.com/assets/img/tools/docker.svg',
-  gitlab: 'https://www.nablify.com/assets/img/tools/gitlab.svg',
-  python: 'https://www.nablify.com/assets/img/tools/python.svg',
-  google_cloud: 'https://www.nablify.com/assets/img/tools/google_cloud.svg',
-  kubernetes: 'https://www.nablify.com/assets/img/tools/kubernetes.svg',
-  apptainer: 'https://www.nablify.com/assets/img/tools/apptainer.svg',
-  slurm: 'https://www.nablify.com/assets/img/tools/slurm.svg',
+const toolImages: Record<string, StaticImageData> = {
+  mysql: mysqlImage,
+  latex: latexImage,
+  r: rImage,
+  fortran: fortranImage,
+  julia: juliaImage,
+  postgresql: postgresqlImage,
+  docker: dockerImage,
+  gitlab: gitlabImage,
+  python: pythonImage,
+  google_cloud: googleCloudImage,
+  kubernetes: kubernetesImage,
+  apptainer: apptainerImage,
+  slurm: slurmImage,
 };
 
 const Story = ({ story, index }: { story: any; index: number }) => {
@@ -69,6 +83,7 @@ const Story = ({ story, index }: { story: any; index: number }) => {
               src={story.image}
               alt="Use Case Image"
               fill
+              loading="lazy"
               className="object-cover"
             />
           </motion.div>
@@ -128,13 +143,17 @@ const Story = ({ story, index }: { story: any; index: number }) => {
 
           <div className="mt-12 flex flex-wrap items-center gap-4">
             {story.tools.map((tool: string) => (
-            // eslint-disable-next-line @next/next/no-img-element
-              <img
-                key={tool}
-                src={toolUrls[tool]}
-                alt={`${tool} logo`}
-                className="h-8 w-auto object-contain"
-              />
+              toolImages[tool] && (
+                <Image
+                  key={tool}
+                  src={toolImages[tool]}
+                  alt={`${tool} logo`}
+                  width={32}
+                  height={32}
+                  loading="lazy"
+                  className="h-8 w-auto object-contain"
+                />
+              )
             ))}
           </div>
         </motion.div>
