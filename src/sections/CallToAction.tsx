@@ -4,7 +4,7 @@ import starImage from '@/assets/star.webp';
 import { motion, useScroll, useTransform } from 'framer-motion';
 import { useTranslations } from 'next-intl';
 import Link from 'next/link';
-import { useRef } from 'react';
+import { useEffect, useRef, useState } from 'react';
 
 export const CallToAction = () => {
   const sectionRef = useRef(null);
@@ -13,6 +13,17 @@ export const CallToAction = () => {
     offset: ['start end', 'end start'],
   });
   const translateY = useTransform(scrollYProgress, [0, 1], [-100, 100]);
+  const [mapLoaded, setMapLoaded] = useState(false);
+
+  // Load map when component mounts
+  useEffect(() => {
+    // Small delay to ensure it's not loaded immediately on page load
+    const timer = setTimeout(() => {
+      setMapLoaded(true);
+    }, 1000);
+
+    return () => clearTimeout(timer);
+  }, []);
 
   const t = useTranslations('CallToAction');
 
@@ -116,12 +127,19 @@ export const CallToAction = () => {
               transition={{ duration: 0.6, delay: 0.4 }}
               className="aspect-square overflow-hidden rounded-full"
             >
-              <iframe
-                className="size-full"
-                src="https://www.openstreetmap.org/export/embed.html?bbox=5.95836639404297%2C49.42325732410983%2C6.338424682617188%2C49.70050312905713&marker=49.56215181072835%2C6.148392856121063"
-                frameBorder="0"
-                title="Map of Luxembourg office location"
-              />
+              {mapLoaded
+                ? (
+                    <iframe
+                      className="size-full"
+                      src="https://www.openstreetmap.org/export/embed.html?bbox=5.95836639404297%2C49.42325732410983%2C6.338424682617188%2C49.70050312905713&marker=49.56215181072835%2C6.148392856121063"
+                      frameBorder="0"
+                      loading="lazy"
+                      title="Map of Luxembourg office location"
+                    />
+                  )
+                : (
+                    <div className="size-full bg-gray-100" />
+                  )}
             </motion.div>
             <motion.img
               src={springImage.src}
